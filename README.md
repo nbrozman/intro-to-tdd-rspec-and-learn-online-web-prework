@@ -291,7 +291,6 @@ Update the code in `current_age_for_birth_year.rb` to entirely read:
 ```ruby
 def current_age_for_birth_year(birth_year)
 end
-```
 
 There we define the method `current_age_for_birth_year` to accept an argument and name that argument `birth_year`. The method does nothing else.
 
