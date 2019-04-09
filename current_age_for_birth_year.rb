@@ -9,4 +9,6 @@ describe "current_age_for_birth_year method" do
 
     expect(age_of_person).to eq(35)
   end
+  def current_age_for_birth_year(1983)
+  Time.now.year - birth_year
 end
